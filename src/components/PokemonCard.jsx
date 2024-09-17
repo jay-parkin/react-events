@@ -30,7 +30,7 @@ export default class PokemonCard extends React.Component {
           // if condition is true, render this stuff
           <>
             <h1>{this.state.pokemonName}</h1>
-            <img src={this.state.pokemonImage} />
+            <img src={this.state.pokemonImage} alt=""/>
           </>
         ) : (
           // if condition is false, render this stuff
